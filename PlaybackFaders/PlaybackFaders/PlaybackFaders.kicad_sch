@@ -315,6 +315,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi_and_Boards:Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1163,9 +1326,29 @@
 			)
 		)
 	)
+	(junction
+		(at 201.93 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260d53f3-b525-4ed4-8f0b-d2c36a29458f")
+	)
+	(junction
+		(at 201.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36da67e5-fd10-4e2c-af92-42a59cf8a3d3")
+	)
 	(no_connect
-		(at 209.55 95.25)
-		(uuid "ca588c2c-4c9b-42ec-935b-ac47c4d96c8e")
+		(at 231.14 100.33)
+		(uuid "adeb90f0-45fa-4a6c-a5b1-10ed6c6a99a5")
+	)
+	(no_connect
+		(at 233.68 111.76)
+		(uuid "b080e271-9e9d-4d67-82a8-a639a5b045df")
+	)
+	(no_connect
+		(at 220.98 100.33)
+		(uuid "d2eaea71-df37-4ea9-aa3e-82a036e35d3f")
 	)
 	(wire
 		(pts
@@ -1186,6 +1369,16 @@
 			(type default)
 		)
 		(uuid "1b39b45f-fde6-4178-a7d9-655abff961e1")
+	)
+	(wire
+		(pts
+			(xy 218.44 95.25) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5ff25e-2be8-4a8f-8baf-a278eaed922a")
 	)
 	(wire
 		(pts
@@ -1239,13 +1432,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 158.75 100.33)
+			(xy 177.8 97.79) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62dae7eb-db5a-43ca-8f0d-de523a1bebee")
+	)
+	(wire
+		(pts
+			(xy 226.06 124.46) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717887e5-f954-48e0-8615-bc54e2a672c9")
 	)
 	(wire
 		(pts
@@ -1269,6 +1472,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 95.25) (xy 218.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884cdffa-67cf-4128-9c80-2c8d8d3094b4")
+	)
+	(wire
+		(pts
+			(xy 201.93 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9508374d-b0fe-4792-a7bc-eaf0b5c37427")
+	)
+	(wire
+		(pts
 			(xy 166.37 95.25) (xy 166.37 90.17)
 		)
 		(stroke
@@ -1289,13 +1512,43 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 177.8 100.33)
+			(xy 177.8 83.82) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5ef4b58-3eb5-4bbb-9ca5-e35a97484ba3")
+	)
+	(wire
+		(pts
+			(xy 201.93 124.46) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e9760f-2439-4f9e-a97a-b12c891206a5")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 201.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f615ccf9-363c-4e37-a550-e8abc3b5b52b")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ebe8c6-4985-482a-a466-c0eb04d3e52b")
 	)
 	(wire
 		(pts
@@ -1335,7 +1588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cherry_MX_SK6812_BS:Cherry_MX_SK6812_BS"
+		(property "Footprint" "Cherry_MX_WS2812:Cherry_MX_SK6812_BS"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -1577,6 +1830,176 @@
 			(project "PlaybackFaders"
 				(path "/526de8cb-0a07-47f8-87e3-482712167997"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 201.93 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62fdf0b-1256-4b73-94ac-99ef31ca14a4")
+		(property "Reference" "D3"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d00dd997-36c2-4927-ad30-5c4ece366400")
+		)
+		(pin "1"
+			(uuid "6e3fc816-3a68-457d-b2e5-b1440060f439")
+		)
+		(instances
+			(project "PlaybackFaders"
+				(path "/526de8cb-0a07-47f8-87e3-482712167997"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX_WS2812B:WS2812B")
+		(at 226.06 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d38ebb98-08ea-45cb-88ee-a3946bbef3d9")
+		(property "Reference" "D2"
+			(at 228.2541 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 228.2541 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Cherry_MX_WS2812:Cherry_MX_SK6812_BS"
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "834cf01a-b5d4-495b-b78a-757eea2036df")
+		)
+		(pin "2"
+			(uuid "a96eda64-3dd3-4075-983a-b741734909e6")
+		)
+		(pin "5"
+			(uuid "e68633ae-4806-4dd9-86ad-f5e55fb1fe00")
+		)
+		(pin "1"
+			(uuid "3ad46a11-1b3c-410f-be80-5218141854f1")
+		)
+		(pin "4"
+			(uuid "fe3c8186-3ce8-4ba6-9ade-605e91a6984c")
+		)
+		(pin "6"
+			(uuid "819e88a9-44ef-4998-bf50-89d59860f0f4")
+		)
+		(instances
+			(project "PlaybackFaders"
+				(path "/526de8cb-0a07-47f8-87e3-482712167997"
+					(reference "D2")
 					(unit 1)
 				)
 			)

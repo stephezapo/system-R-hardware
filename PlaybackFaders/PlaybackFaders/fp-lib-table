@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "D:/dev/KiCad Stuff/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "Cherry_MX_SK6812_BS")(type "KiCad")(uri "D:/dev/github/system-R-hardware/KiCadParts/Cherry_MX_SK6812_BS")(options "")(descr ""))
+  (lib (name "Cherry_MX_WS2812")(type "KiCad")(uri "C:/dev/Github/system-R-hardware/KiCadParts/Cherry_MX_WS2812.pretty")(options "")(descr ""))
 )
