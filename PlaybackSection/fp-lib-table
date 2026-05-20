@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CherryMX-RGB") (type "KiCad") (uri "${KIPRJMOD}/library/Cherry_MX_SK6812_BS") (options "") (descr ""))
+	(lib (name "RotaryEncoderRGB") (type "KiCad") (uri "${KIPRJMOD}/library/RotaryEncoderRGB") (options "") (descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Cherry_MX_SK6812_BS") (type "KiCad") (uri "${KIPRJMOD}/library/Cherry_MX_SK6812_BS/Cherry_MX_SK6812_BS.kicad_sym") (options "") (descr ""))
+	(lib (name "RotaryEncoderRGB") (type "KiCad") (uri "${KIPRJMOD}/library/RotaryEncoderRGB/RotaryEncoderRGB_.kicad_sym") (options "") (descr ""))
+)

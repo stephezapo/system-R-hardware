@@ -1,0 +1,233 @@
+(footprint "Cherry_MX_SK6812_BS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.604 5.334 90)
+		(layer "F.SilkS")
+		(uuid "ff3c1669-757a-42a1-a27b-2685cea587c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cherry_MX_SK6812_BS"
+		(at 0 9.144 0)
+		(layer "F.Fab")
+		(uuid "0f6e5384-eac3-4091-aaee-5d604df4973a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc7cffa6-ae2c-4399-9e24-377bcb88dbc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1629a00-574c-4806-9ba3-a37d2c3fd86c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.8 -7.8)
+		(end 7.8 -7.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8dd2129-0f6d-4e45-a24a-8b0ae91f3c77")
+	)
+	(fp_line
+		(start -7.8 7.8)
+		(end -7.8 -7.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8df86bbf-c34d-45db-8975-0748f17ec9cc")
+	)
+	(fp_line
+		(start 7.8 -7.8)
+		(end 7.8 7.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "770e814e-7ed1-4a1a-b95b-2b72754a96ae")
+	)
+	(fp_line
+		(start 7.8 7.8)
+		(end -7.8 7.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2b0954a-7ad3-45f0-9ced-db6f72d2ba77")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66124a18-079d-466a-bc3f-21bf97bdd028")
+	)
+	(fp_line
+		(start -2.5 7.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "874a4d83-ba8e-4354-8821-e2c81f2b854b")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d1f0a033-5852-439b-827d-1b81c50415eb")
+	)
+	(fp_line
+		(start 2.5 7.5)
+		(end -2.5 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "11174b2f-e623-4a62-93ac-c45f543ff9f1")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.4986 1.4986)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(uuid "06702da2-9a0b-4955-bb3c-a9b520dbddba")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7b662d92-daf9-45c7-94ba-2de0e23cc569")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.4986 1.4986)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ed911be3-6e6e-42a6-8201-b88672531f5f")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.54)
+		(size 2.2 2.2)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16ddf341-f33b-4665-b19a-b5b8b77c82c3")
+	)
+	(pad "1" thru_hole circle
+		(at 3.81 -2.54)
+		(size 2.2 2.2)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c6212fa-64fc-485d-8e15-326951993e10")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -5.08)
+		(size 2.2 2.2)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3022157b-87f4-4ce1-9721-8ba553a68fa2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.2 2.2)
+		(drill 1.4986)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "301bf8f6-ee3a-455b-bdea-e99de4bf03d5")
+	)
+	(pad "3" smd rect
+		(at 3.302 6.731)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73953e77-6b27-432d-8193-c0e1eea6d1ee")
+	)
+	(pad "4" smd rect
+		(at -3.302 3.302)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0a804ce-46c1-475d-921d-ac4b276824e8")
+	)
+	(pad "5" smd rect
+		(at -3.302 6.731)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10dea3ec-3ff5-4190-a04f-835671a8b57c")
+	)
+	(pad "6" smd rect
+		(at 3.302 3.302)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e7c97dc-260b-4795-9747-225c684c9c87")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/DraconiX/Desktop/Test.step"
+		(offset
+			(xyz -7.35 7.35 -7.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+	(model "C:/Users/DraconiX/Desktop/WS2812_RGB_LED_updated.stp"
+		(offset
+			(xyz 0 -5 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 90)
+		)
+	)
+)
